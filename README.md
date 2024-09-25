@@ -4,6 +4,8 @@ npm install -y
 npm run start
 
 
+config file :
+
 {
   "token_hmac_secret_key": "",
   "admin_password": "your_admin_password",
