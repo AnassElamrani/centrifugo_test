@@ -1,0 +1,74 @@
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Styles for the app container */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Header styles */
+h1 {
+  font-size: 24px;
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header */
+table thead th {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+/* Table rows */
+table tbody td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Table row hover effect */
+table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Table row alternate colors */
+table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Basic button styles (if you want to add buttons) */
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
